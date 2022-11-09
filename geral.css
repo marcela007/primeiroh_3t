@@ -1,14 +1,14 @@
 .calculadora {
     padding: 10px;
-    background: rgb(255, 104, 255);
+    background: rgb(179, 25, 25);
     width: 200px;
     border-radius: 20px;
-    box-shadow: 5px 2px yellow;
+    box-shadow: 5px 2px rgb(97, 2, 2);
     text-align: center;
-}b
+}
 .listaMensal {
     padding: 10px;
-    background: rgb(233, 183, 183);
+    background: rgb(180, 7, 7);
     width: 200px;
     border-radius: 20px;
 
@@ -16,15 +16,15 @@
     display: none;
 }
 .calculadora input {
-    background: black;
-    color: white;
+    background: rgb(187, 71, 71);
+    color: rgb(255, 255, 255);
     border-radius: 15px;
     height: 25px;
     border: none;
     width: 100%;
-}
+}    
 .spResul {
-    background: black;
+    background: rgb(0, 0, 0);
     color: yellow;
     padding: 5px;
     margin: 5px;
@@ -33,14 +33,23 @@
 
 #btnCalc {
     padding: 5px;
-    background: rgb(79, 148, 88);
+    background: rgb(36, 212, 60);
     margin-top: 15px;
     border: none;
     border-radius: 10px;
     font-size: 24px;
 }
 #btnCalc:hover {
-    background: rgb(44, 53, 45);
+    background: rgb(19, 107, 29);
     color: white;
     cursor: pointer;
+}
+.calcF {
+    display: none;
+}
+#calcFin {
+    display: none;
+}
+#calcFin:checked + .calculadora .calcF {
+    display: block;
 }
